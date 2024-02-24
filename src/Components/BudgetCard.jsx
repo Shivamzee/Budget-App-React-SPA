@@ -1,5 +1,5 @@
 import { currencyFormatter } from "../utils";
-import { Card, ProgressBar } from "react-bootstrap/Card";
+import { Card, ProgressBar } from "react-bootstrap";
 const BudgetCard = ({ name, amount, max }) => {
   return (
     <Card>
